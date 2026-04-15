@@ -68,7 +68,7 @@ export function Portfolio() {
               Our Work
             </h2>
             <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter leading-[1.1]">
-              Recent <span className="text-gradient">Success</span> Stories.
+              Recent <span className="text-gradient">Web Design</span> Success Stories.
             </h3>
           </div>
           <p className="text-base sm:text-base md:text-lg text-white/70 max-w-sm leading-relaxed font-medium">
@@ -93,7 +93,7 @@ export function Portfolio() {
               <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-white/10 transition-all duration-500 group-hover:border-blue-500/30 group-hover:shadow-[0_0_30px_rgba(59,130,246,0.1)] mb-4">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`${project.title} - ${project.industry} Website Design by Abhi Web Studios`}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
                   loading="lazy"

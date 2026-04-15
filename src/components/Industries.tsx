@@ -33,7 +33,7 @@ export function Industries() {
             Who This Is For
           </h2>
           <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tighter mb-6">
-            We Help <span className="text-gradient">Specific</span> Industries Scale.
+            Websites for <span className="text-gradient">Salons, Spas</span> & Local Businesses.
           </h3>
           <p className="text-base sm:text-base text-white/50 max-w-2xl mx-auto font-medium">
             We don't try to be everything to everyone. We specialize in industries where we know we can deliver massive ROI.

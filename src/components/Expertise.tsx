@@ -82,7 +82,7 @@ export function Expertise() {
               viewport={{ once: true }}
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white tracking-tighter leading-[1.1]"
             >
-              Proven <span className="text-gradient">Solutions</span> for Growing Brands.
+              Elite <span className="text-gradient">Web Design</span> & Lead Generation.
             </motion.h2>
           </div>
             <motion.p
