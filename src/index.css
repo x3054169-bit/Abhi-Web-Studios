@@ -130,7 +130,7 @@
         background-attachment: fixed;
         border: var(--border-size) solid var(--backup-border);
         position: relative;
-        touch-action: none;
+        touch-action: pan-y;
     }
 
     @media (max-width: 768px) {
