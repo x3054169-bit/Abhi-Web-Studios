@@ -60,7 +60,7 @@ export function Hero() {
             </div>
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] tracking-tighter mb-6 md:mb-8">
               High-Converting Websites <br />
-              <span className="text-gradient">for Salons & Spas.</span>
+              <span className="text-gradient">for Salons, Spas & Clinics.</span>
             </h1>
             <p className="text-base sm:text-base md:text-lg text-white/70 max-w-lg mb-8 md:mb-12 leading-relaxed font-medium">
               Fast, mobile-first websites designed to turn visitors into real inquiries and customers.
