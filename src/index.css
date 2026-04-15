@@ -133,6 +133,15 @@
         touch-action: none;
     }
 
+    @media (max-width: 768px) {
+        [data-glow], [data-glow]::before, [data-glow]::after {
+            background-image: none !important;
+            mask: none !important;
+            -webkit-mask: none !important;
+            border-color: rgba(255, 255, 255, 0.1) !important;
+        }
+    }
+
     [data-glow]::before,
     [data-glow]::after {
         pointer-events: none;

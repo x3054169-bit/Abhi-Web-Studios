@@ -107,20 +107,20 @@ export function Expertise() {
           <motion.div variants={itemVariants} className="md:col-span-6 lg:col-span-8">
             <GlowCard 
               glowColor="blue"
-              className="group cursor-pointer h-full p-5 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-500/40 transition-all duration-500"
+              className="group cursor-pointer h-full p-4 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-500/40 transition-all duration-500"
               customSize={true}
               width="100%"
               height="100%"
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full min-h-[300px] md:min-h-[400px]">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 h-full min-h-[200px] md:min-h-[400px]">
                 <div className="flex flex-col justify-center">
-                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6 border border-blue-500/20">
-                    <Code2 className="w-6 h-6 text-blue-500" />
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-4 md:mb-6 border border-blue-500/20">
+                    <Code2 className="w-5 h-5 md:w-6 md:h-6 text-blue-500" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors tracking-tight">
+                  <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 group-hover:text-blue-400 transition-colors tracking-tight">
                     Web Development
                   </h3>
-                  <p className="text-white/70 text-sm leading-relaxed mb-8 font-medium">
+                  <p className="text-white/70 text-xs md:text-sm leading-relaxed mb-6 md:mb-8 font-medium">
                     High-performance, scalable web applications built with the latest technologies. From complex SaaS platforms to high-converting landing pages.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -149,19 +149,19 @@ export function Expertise() {
           <motion.div variants={itemVariants} className="md:col-span-3 lg:col-span-4">
             <GlowCard 
               glowColor="purple"
-              className="group cursor-pointer h-full p-5 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/40 transition-all duration-500"
+              className="group cursor-pointer h-full p-4 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/40 transition-all duration-500"
               customSize={true}
               width="100%"
               height="100%"
             >
               <div className="flex flex-col h-full">
-                <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center mb-6 border border-purple-500/20">
-                  <Palette className="w-6 h-6 text-purple-500" />
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-purple-500/10 flex items-center justify-center mb-4 md:mb-6 border border-purple-500/20">
+                  <Palette className="w-5 h-5 md:w-6 md:h-6 text-purple-500" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-400 transition-colors tracking-tight">
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 group-hover:text-purple-400 transition-colors tracking-tight">
                   UI/UX Design
                 </h3>
-                <p className="text-white/70 text-sm leading-relaxed mb-8 font-medium">
+                <p className="text-white/70 text-xs md:text-sm leading-relaxed mb-6 md:mb-8 font-medium">
                   Intuitive and beautiful interfaces designed to convert visitors into loyal clients.
                 </p>
                 <div className="mt-auto relative rounded-xl overflow-hidden aspect-square">
@@ -182,19 +182,19 @@ export function Expertise() {
           <motion.div variants={itemVariants} className="md:col-span-3 lg:col-span-4">
             <GlowCard 
               glowColor="orange"
-              className="group cursor-pointer h-full p-5 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-orange-500/40 transition-all duration-500"
+              className="group cursor-pointer h-full p-4 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-orange-500/40 transition-all duration-500"
               customSize={true}
               width="100%"
               height="100%"
             >
               <div className="flex flex-col h-full">
-                <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center mb-6 border border-orange-500/20">
-                  <Rocket className="w-6 h-6 text-orange-500" />
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-orange-500/10 flex items-center justify-center mb-4 md:mb-6 border border-orange-500/20">
+                  <Rocket className="w-5 h-5 md:w-6 md:h-6 text-orange-500" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-orange-400 transition-colors tracking-tight">
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 group-hover:text-orange-400 transition-colors tracking-tight">
                   Digital Strategy
                 </h3>
-                <p className="text-white/70 text-sm leading-relaxed font-medium">
+                <p className="text-white/70 text-xs md:text-sm leading-relaxed font-medium">
                   Data-driven strategies to scale your business and dominate your market.
                 </p>
               </div>
@@ -205,20 +205,20 @@ export function Expertise() {
           <motion.div variants={itemVariants} className="md:col-span-6 lg:col-span-8">
             <GlowCard 
               glowColor="green"
-              className="group cursor-pointer h-full p-5 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-green-500/40 transition-all duration-500"
+              className="group cursor-pointer h-full p-4 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-green-500/40 transition-all duration-500"
               customSize={true}
               width="100%"
               height="100%"
             >
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 h-full">
                 <div className="md:col-span-2 flex flex-col justify-center">
-                  <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-6 border border-green-500/20">
-                    <Search className="w-6 h-6 text-green-500" />
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-4 md:mb-6 border border-green-500/20">
+                    <Search className="w-5 h-5 md:w-6 md:h-6 text-green-500" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors tracking-tight">
+                  <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 group-hover:text-green-400 transition-colors tracking-tight">
                     SEO Optimization
                   </h3>
-                  <p className="text-white/70 text-sm leading-relaxed font-medium">
+                  <p className="text-white/70 text-xs md:text-sm leading-relaxed font-medium">
                     Boost your visibility and rank higher on search engines. We focus on technical SEO, content strategy, and authority building.
                   </p>
                 </div>
