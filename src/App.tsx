@@ -1,18 +1,21 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Stats } from "@/components/Stats";
-import { Services } from "@/components/Services";
-import { Expertise } from "@/components/Expertise";
-import { Industries } from "@/components/Industries";
-import { Portfolio } from "@/components/Portfolio";
-import { Process } from "@/components/Process";
-import { About } from "@/components/About";
-import { CTA } from "@/components/CTA";
-import { Contact } from "@/components/Contact";
-import { Footer } from "@/components/Footer";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileActions } from "@/components/MobileActions";
+import React, { Suspense, lazy } from "react";
+
+// Lazy load below-the-fold components
+const Services = lazy(() => import("@/components/Services").then(m => ({ default: m.Services })));
+const Expertise = lazy(() => import("@/components/Expertise").then(m => ({ default: m.Expertise })));
+const Industries = lazy(() => import("@/components/Industries").then(m => ({ default: m.Industries })));
+const Portfolio = lazy(() => import("@/components/Portfolio").then(m => ({ default: m.Portfolio })));
+const Process = lazy(() => import("@/components/Process").then(m => ({ default: m.Process })));
+const About = lazy(() => import("@/components/About").then(m => ({ default: m.About })));
+const CTA = lazy(() => import("@/components/CTA").then(m => ({ default: m.CTA })));
+const Contact = lazy(() => import("@/components/Contact").then(m => ({ default: m.Contact })));
+const Footer = lazy(() => import("@/components/Footer").then(m => ({ default: m.Footer })));
 
 export default function App() {
   return (
@@ -31,19 +34,23 @@ export default function App() {
       <main className="relative">
         <Hero />
         <Stats />
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/[0.02] to-transparent pointer-events-none" />
-          <Services />
-          <Expertise />
-          <Industries />
-        </div>
-        <Portfolio />
-        <Process />
-        <About />
-        <CTA />
-        <Contact />
+        <Suspense fallback={<div className="h-96" />}>
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/[0.02] to-transparent pointer-events-none" />
+            <Services />
+            <Expertise />
+            <Industries />
+          </div>
+          <Portfolio />
+          <Process />
+          <About />
+          <CTA />
+          <Contact />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={<div className="h-48" />}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }

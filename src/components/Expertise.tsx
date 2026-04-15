@@ -133,7 +133,7 @@ export function Expertise() {
                 </div>
                 <div className="relative rounded-xl overflow-hidden hidden md:block">
                   <img 
-                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800" 
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800&fm=webp" 
                     alt="Web Development"
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -166,7 +166,7 @@ export function Expertise() {
                 </p>
                 <div className="mt-auto relative rounded-xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1618788372246-79faff0c3742?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="https://images.unsplash.com/photo-1618788372246-79faff0c3742?q=80&w=627&auto=format&fit=crop&fm=webp" 
                     alt="UI/UX Design"
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -224,7 +224,7 @@ export function Expertise() {
                 </div>
                 <div className="relative rounded-xl overflow-hidden hidden md:block">
                   <img 
-                    src="https://images.unsplash.com/photo-1686061593269-420785fb8fa0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="https://images.unsplash.com/photo-1686061593269-420785fb8fa0?q=80&w=800&auto=format&fit=crop&fm=webp" 
                     alt="SEO"
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000"
                     referrerPolicy="no-referrer"

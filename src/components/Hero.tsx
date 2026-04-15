@@ -113,11 +113,11 @@ export function Hero() {
               
               <div className="relative w-full h-full">
                 <img 
-                  src="https://picsum.photos/seed/nexus-preview/1200/800" 
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200&fm=webp" 
                   alt="Website Preview" 
                   className="w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity duration-700"
                   referrerPolicy="no-referrer"
-                  loading="lazy"
+                  fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-blue-500/5" />
                 

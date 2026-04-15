@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist/index.css";
+
+/* Ensure font-display: swap is applied */
+@font-face {
+  font-family: 'Geist Variable';
+  font-display: swap;
+}
 
 @custom-variant dark (&:is(.dark *));
 
